@@ -1,8 +1,5 @@
 //  Lazar Lazarevic
 //  Apr/23/23 ©
-/*
-    This is a file that contains the main functions used in project10.
-*/
 
 #include <stdio.h>
 #include <string.h>
