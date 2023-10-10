@@ -1,8 +1,5 @@
 //  Lazar Lazarevic
 //  Apr/23/23 ©
-/*
-    This is a file that contains all the functions prototypes and macros used in project10. For more detail on what they do go to job.c file.
-*/
 
 #ifndef LINKED_LIST
 #define LINKED_LIST
