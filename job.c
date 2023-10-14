@@ -1,7 +1,7 @@
 //  Lazar Lazarevic
 //  Apr/23/23 ©
 /*
-    This is a file that contains all the functions used in project10.
+    This is a file that contains all the functions used in project.
 */
 
 #include <stdio.h>
@@ -52,13 +52,6 @@ void read1(char *job_name, char *user_name, int *num_cpus, int *num_gpus, int *m
     }
 }
 
-/////////////////////////////////////////////////////////
-// WARNING - WARNING - WARNING - WARNING - WARNING     //
-/////////////////////////////////////////////////////////
-// Do not modify anything before this point, otherwise //
-// your solution will be considered incorrect.         //
-/////////////////////////////////////////////////////////
-///
 // Function adds a job to the end of the list
 struct job * add_job(struct job *scheduler, char *job_name, char *user_name, int num_cpus, int num_gpus, int memory, double time, int priority) {
     struct job *temp, *curr, *prev;
